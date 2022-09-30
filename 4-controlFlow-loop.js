@@ -13,3 +13,35 @@ for (var i = 0; i < 5; i++) {
     }
   }
 }
+
+//while loop
+var count=1;
+while (count<5) {
+  console.log(count);
+  count+=2
+}
+//-------------------
+console.log();
+
+// Break
+for (var i = 0; i < 10; i++) {
+  if (i%3==0) {
+    break;
+  }
+}
+console.log(i);
+
+//--------------------------------
+console.log();
+
+// Continue
+var start =2;
+var sum=0;
+
+do {
+  if (start%2==0) {
+    continue;
+  }
+  sum+=start;
+}while (++start<=10);
+console.log(sum);
