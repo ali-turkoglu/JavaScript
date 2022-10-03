@@ -19,5 +19,5 @@ console.log(one===one_string);  //false --> types are different
 
 //logical
 console.log((5<2) && (2>=3)); //false
-console.log((5<2) || (2>=3));//true
+console.log((5<2) || (2>=3));//false
 console.log(!(5==2));       //true

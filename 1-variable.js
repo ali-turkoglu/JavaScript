@@ -19,4 +19,4 @@ console.log(typeof x);
 
 //prompt operator
 var name = prompt("Enter your name");
-//console.log(name);
+console.log(name);

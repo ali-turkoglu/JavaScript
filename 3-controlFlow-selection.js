@@ -16,7 +16,7 @@ console.log('allowRegister='+allowRegister);
 
 //switch
 var year=2021;
-var month=2;
+var month=4;
 var dayCount;
 
 switch (month) {
