@@ -55,3 +55,7 @@ function convert(fn,length){
 }
 var inch=convert(cmToIn,10);
 var cm=convert(inToCm,10);
+
+//Callback functions: A callback is a function passed as an argument to another function
+//A callback function can run after another function has finished
+//js is a asyncronize language. it can be a problem running function. To solve this we use callback function, promises or async/await
