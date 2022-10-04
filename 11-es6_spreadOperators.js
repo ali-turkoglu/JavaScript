@@ -17,4 +17,4 @@ function multiply(multiplier,...theArgs){
   return theArgs.map(element => multiplier * element);
 }
 let arry=multiply
-console.log(multiply(2,4,5,8));
+console.log(multiply(2,4,5,8)); // [ 8, 10, 16 ]

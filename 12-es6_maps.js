@@ -42,4 +42,4 @@ for(let value of myCars){
   console.log(value);
 }
 
-myCars.forEach((value,key) => {console.log(key+' = '+ value);})
+myCars.forEach((value,key) => {console.log(key+' = '+ value);});
